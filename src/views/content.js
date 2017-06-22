@@ -1,28 +1,11 @@
-/**
 import React, {Component} from 'react';
 import {Page, Toolbar,Button, ListHeader, List, ListItem,
     Icon, ToolbarButton, Input, Modal, notification, BackButton} from 'react-onsenui';
 import store from '../redux/store';
 import baseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import Content from './content';
-import {GridList, GridTile} from 'material-ui/GridList';
-import IconButton from 'material-ui/IconButton';
-import StarBorder from 'material-ui/svg-icons/toggle/star-border';
-import Avatar from 'material-ui/Avatar';
-import FileFolder from 'material-ui/svg-icons/file/folder';
-import FontIcon from 'material-ui/FontIcon';
 //import List from 'material-ui/List/List';
 //import ListItem from 'material-ui/List/ListItem';
-
-import {
-    blue300,
-    indigo900,
-    orange200,
-    deepOrange300,
-    pink400,
-    purple500,
-} from 'material-ui/styles/colors';
 
 const style = {margin: 5};
 
@@ -41,26 +24,9 @@ const styles = {
         color: 'rgb(0, 188, 212)',
     },
 };
-renderRow(row, index) {
-    const x = 40 + Math.round(5 * (Math.random() - 0.5)),
-        y = 40 + Math.round(5 * (Math.random() - 0.5));
 
-    const names = ['Max', 'Chloe', 'Bella', 'Oliver', 'Tiger', 'Lucy', 'Shadow', 'Angel'];
-    const name = names[Math.floor(names.length * Math.random())];
-
-    return (
-        <Ons.ListItem key={index}>
-            <div className='left'>
-                <img src={`http://placekitten.com/g/${x}/${y}`} className='list-item__thumbnail' />
-            </div>
-            <div className='center'>
-                {name}
-            </div>
-        </Ons.ListItem>
-    );
-},
-var SubjList = React.createClass({
-    renderToolbar: function() {
+class Content extends Component {
+    renderToolbar() {
         return (
             <Toolbar style={{backgroundColor:'#00bcd4'}}>
                 <div className="left" style={{backgroundColor:'#00bcd4'}}>
@@ -74,11 +40,9 @@ var SubjList = React.createClass({
                 </div>
             </Toolbar>
         );
-    },
-    navigate(){
+    }
 
-    },
-    renderRow: function(row, index) {
+    renderRow(row, index) {
         const x = 40 + Math.round(5 * (Math.random() - 0.5)),
             y = 40 + Math.round(5 * (Math.random() - 0.5));
 
@@ -86,12 +50,7 @@ var SubjList = React.createClass({
         const name = names[Math.floor(names.length * Math.random())];
 
         return (
-            <ListItem key={index} onClick={ function () {
-                this.props.navigator.pushPage({
-                    component : Content
-                })
-            }
-            } >
+            <ListItem key={index}>
                 <div className='left'>
                     <img src={`http://placekitten.com/g/${x}/${y}`} className='list-item__thumbnail' />
                 </div>
@@ -100,9 +59,9 @@ var SubjList = React.createClass({
                 </div>
             </ListItem>
         );
-    },
+    }
 
-    render: function() {
+    render() {
         return (
             <Page renderToolbar={this.renderToolbar}>
                 <div style={{height:'40vh', width:'100vw', backgroundColor:'#00bcd4', display:'flex',
@@ -117,9 +76,8 @@ var SubjList = React.createClass({
             </Page>
         );
     }
-});
-SubjList.childContextTypes = {
+};
+Content.childContextTypes = {
     muiTheme: getMuiTheme(baseTheme)
 };
-export default SubjList;
- */
+export default Content;

@@ -40,7 +40,7 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
+            <state relative-caret-position="290">
               <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -49,32 +49,84 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="teachx_list.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="teachx_list.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/teachx_list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            <state relative-caret-position="2204">
+              <caret line="1616" column="4" lean-forward="false" selection-start-line="1616" selection-start-column="4" selection-end-line="1616" selection-end-column="4" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#2104#10044#0" expanded="false" />
+                <element signature="e#2211#10038#0" expanded="false" />
+                <element signature="e#2425#3757#0" expanded="false" />
+                <element signature="e#3987#5319#0" expanded="false" />
+                <element signature="e#5549#6881#0" expanded="false" />
+                <element signature="e#7115#8447#0" expanded="false" />
+                <element signature="e#8682#10014#0" expanded="false" />
+                <element signature="e#10050#17990#0" expanded="false" />
+                <element signature="e#10157#17984#0" expanded="false" />
+                <element signature="e#10371#11703#0" expanded="false" />
+                <element signature="e#11933#13265#0" expanded="false" />
+                <element signature="e#13495#14827#0" expanded="false" />
+                <element signature="e#15061#16393#0" expanded="false" />
+                <element signature="e#16628#17960#0" expanded="false" />
+                <element signature="e#17996#25936#0" expanded="false" />
+                <element signature="e#18103#25930#0" expanded="false" />
+                <element signature="e#18317#19649#0" expanded="false" />
+                <element signature="e#19879#21211#0" expanded="false" />
+                <element signature="e#21441#22773#0" expanded="false" />
+                <element signature="e#23007#24339#0" expanded="false" />
+                <element signature="e#24574#25906#0" expanded="false" />
+                <element signature="e#25942#33882#0" expanded="false" />
+                <element signature="e#26049#33876#0" expanded="false" />
+                <element signature="e#26263#27595#0" expanded="false" />
+                <element signature="e#27825#29157#0" expanded="false" />
+                <element signature="e#29387#30719#0" expanded="false" />
+                <element signature="e#30953#32285#0" expanded="false" />
+                <element signature="e#32520#33852#0" expanded="false" />
+                <element signature="e#33888#41828#0" expanded="false" />
+                <element signature="e#33995#41822#0" expanded="false" />
+                <element signature="e#34209#35541#0" expanded="false" />
+                <element signature="e#35771#37103#0" expanded="false" />
+                <element signature="e#37333#38665#0" expanded="false" />
+                <element signature="e#38899#40231#0" expanded="false" />
+                <element signature="e#40466#41798#0" expanded="false" />
+                <element signature="e#41834#49774#0" expanded="false" />
+                <element signature="e#41941#49768#0" expanded="false" />
+                <element signature="e#42155#43487#0" expanded="false" />
+                <element signature="e#43717#45049#0" expanded="false" />
+                <element signature="e#45279#46611#0" expanded="false" />
+                <element signature="e#46845#48177#0" expanded="false" />
+                <element signature="e#48412#49744#0" expanded="false" />
+                <element signature="e#49780#57720#0" expanded="false" />
+                <element signature="e#49887#57714#0" expanded="false" />
+                <element signature="e#50101#51433#0" expanded="false" />
+                <element signature="e#51663#52995#0" expanded="false" />
+                <element signature="e#53225#54557#0" expanded="false" />
+                <element signature="e#54791#56123#0" expanded="false" />
+                <element signature="e#56358#57690#0" expanded="false" />
+                <element signature="e#57726#65666#0" expanded="false" />
+                <element signature="e#57833#65660#0" expanded="false" />
+                <element signature="e#58047#59379#0" expanded="false" />
+                <element signature="e#59609#60941#0" expanded="false" />
+                <element signature="e#61171#62503#0" expanded="false" />
+                <element signature="e#62737#64069#0" expanded="false" />
+                <element signature="e#64304#65636#0" expanded="false" />
                 <element signature="n#!!block;n#getChildContext#0;n#TeachxList#0" expanded="false" />
-                <element signature="e#4396#5534#0" expanded="false" />
-                <element signature="e#5547#6685#0" expanded="false" />
-                <element signature="e#6698#7836#0" expanded="false" />
-                <element signature="e#7849#8987#0" expanded="false" />
-                <element signature="e#9000#10138#0" expanded="false" />
+                <element signature="e#65963#66263#0" expanded="false" />
+                <element signature="e#66300#66449#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="subj_list.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="subj_list.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/views/subj_list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2288">
-              <caret line="109" column="37" lean-forward="false" selection-start-line="109" selection-start-column="37" selection-end-line="109" selection-end-column="37" />
+            <state relative-caret-position="348">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
-                <element signature="n#!!block;n#getChildContext#0;n#SubjList#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -83,9 +135,23 @@
       <file leaf-file-name="home.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding />
+            <state relative-caret-position="3596">
+              <caret line="124" column="3" lean-forward="false" selection-start-line="124" selection-start-column="3" selection-end-line="124" selection-end-column="3" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/content.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="960">
+              <caret line="71" column="25" lean-forward="false" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,10 +163,11 @@
       <list>
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/views/teachx_list.js" />
-        <option value="$PROJECT_DIR$/src/views/home.js" />
-        <option value="$PROJECT_DIR$/src/views/subj_list.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/views/home.js" />
+        <option value="$PROJECT_DIR$/src/views/content.js" />
         <option value="$PROJECT_DIR$/src/views/teachx_list.js" />
+        <option value="$PROJECT_DIR$/src/views/subj_list.js" />
       </list>
     </option>
   </component>
@@ -198,6 +265,7 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/danieloduonye/Dropbox/Daniel/Work/Projects/teachx/src/views/teachx_list.js" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -270,16 +338,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498045607117</updated>
-      <workItem from="1498045608493" duration="18828000" />
+      <workItem from="1498045608493" duration="40412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18828000" />
+    <option name="totallyTimeSpent" value="40412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -288,7 +356,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -329,7 +397,33 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/views/teachx_list.js</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/views/teachx_list.js</url>
+          <line>735</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/views/teachx_list.js</url>
+          <line>1177</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/views/teachx_list.js</url>
+          <line>1616</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -352,28 +446,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/subj_list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2288">
-          <caret line="109" column="37" lean-forward="false" selection-start-line="109" selection-start-column="37" selection-end-line="109" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="n#!!block;n#getChildContext#0;n#SubjList#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
+        <state relative-caret-position="290">
           <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -381,18 +456,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/teachx_list.js">
+    <entry file="file://$PROJECT_DIR$/src/views/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="3596">
+          <caret line="124" column="3" lean-forward="false" selection-start-line="124" selection-start-column="3" selection-end-line="124" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/content.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="71" column="25" lean-forward="false" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/teachx_list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2204">
+          <caret line="1616" column="4" lean-forward="false" selection-start-line="1616" selection-start-column="4" selection-end-line="1616" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#2104#10044#0" expanded="false" />
+            <element signature="e#2211#10038#0" expanded="false" />
+            <element signature="e#2425#3757#0" expanded="false" />
+            <element signature="e#3987#5319#0" expanded="false" />
+            <element signature="e#5549#6881#0" expanded="false" />
+            <element signature="e#7115#8447#0" expanded="false" />
+            <element signature="e#8682#10014#0" expanded="false" />
+            <element signature="e#10050#17990#0" expanded="false" />
+            <element signature="e#10157#17984#0" expanded="false" />
+            <element signature="e#10371#11703#0" expanded="false" />
+            <element signature="e#11933#13265#0" expanded="false" />
+            <element signature="e#13495#14827#0" expanded="false" />
+            <element signature="e#15061#16393#0" expanded="false" />
+            <element signature="e#16628#17960#0" expanded="false" />
+            <element signature="e#17996#25936#0" expanded="false" />
+            <element signature="e#18103#25930#0" expanded="false" />
+            <element signature="e#18317#19649#0" expanded="false" />
+            <element signature="e#19879#21211#0" expanded="false" />
+            <element signature="e#21441#22773#0" expanded="false" />
+            <element signature="e#23007#24339#0" expanded="false" />
+            <element signature="e#24574#25906#0" expanded="false" />
+            <element signature="e#25942#33882#0" expanded="false" />
+            <element signature="e#26049#33876#0" expanded="false" />
+            <element signature="e#26263#27595#0" expanded="false" />
+            <element signature="e#27825#29157#0" expanded="false" />
+            <element signature="e#29387#30719#0" expanded="false" />
+            <element signature="e#30953#32285#0" expanded="false" />
+            <element signature="e#32520#33852#0" expanded="false" />
+            <element signature="e#33888#41828#0" expanded="false" />
+            <element signature="e#33995#41822#0" expanded="false" />
+            <element signature="e#34209#35541#0" expanded="false" />
+            <element signature="e#35771#37103#0" expanded="false" />
+            <element signature="e#37333#38665#0" expanded="false" />
+            <element signature="e#38899#40231#0" expanded="false" />
+            <element signature="e#40466#41798#0" expanded="false" />
+            <element signature="e#41834#49774#0" expanded="false" />
+            <element signature="e#41941#49768#0" expanded="false" />
+            <element signature="e#42155#43487#0" expanded="false" />
+            <element signature="e#43717#45049#0" expanded="false" />
+            <element signature="e#45279#46611#0" expanded="false" />
+            <element signature="e#46845#48177#0" expanded="false" />
+            <element signature="e#48412#49744#0" expanded="false" />
+            <element signature="e#49780#57720#0" expanded="false" />
+            <element signature="e#49887#57714#0" expanded="false" />
+            <element signature="e#50101#51433#0" expanded="false" />
+            <element signature="e#51663#52995#0" expanded="false" />
+            <element signature="e#53225#54557#0" expanded="false" />
+            <element signature="e#54791#56123#0" expanded="false" />
+            <element signature="e#56358#57690#0" expanded="false" />
+            <element signature="e#57726#65666#0" expanded="false" />
+            <element signature="e#57833#65660#0" expanded="false" />
+            <element signature="e#58047#59379#0" expanded="false" />
+            <element signature="e#59609#60941#0" expanded="false" />
+            <element signature="e#61171#62503#0" expanded="false" />
+            <element signature="e#62737#64069#0" expanded="false" />
+            <element signature="e#64304#65636#0" expanded="false" />
             <element signature="n#!!block;n#getChildContext#0;n#TeachxList#0" expanded="false" />
-            <element signature="e#4396#5534#0" expanded="false" />
-            <element signature="e#5547#6685#0" expanded="false" />
-            <element signature="e#6698#7836#0" expanded="false" />
-            <element signature="e#7849#8987#0" expanded="false" />
-            <element signature="e#9000#10138#0" expanded="false" />
+            <element signature="e#65963#66263#0" expanded="false" />
+            <element signature="e#66300#66449#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/subj_list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
