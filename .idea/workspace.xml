@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f659bb6f-1d2f-4dd0-b47f-737810752c14" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/teachx_list.js" afterPath="$PROJECT_DIR$/src/views/teachx_list.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,8 +54,8 @@
       <file leaf-file-name="teachx_list.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/views/teachx_list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="377" column="21" lean-forward="false" selection-start-line="377" selection-start-column="21" selection-end-line="377" selection-end-column="21" />
+            <state relative-caret-position="377">
+              <caret line="373" column="38" lean-forward="false" selection-start-line="373" selection-start-column="38" selection-end-line="373" selection-end-column="38" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
                 <element signature="e#2926#4666#0" expanded="false" />
@@ -67,7 +66,7 @@
                 <element signature="e#10718#12162#0" expanded="false" />
                 <element signature="e#12176#13737#0" expanded="false" />
                 <element signature="n#!!block;n#getChildContext#0;n#TeachxList#0" expanded="false" />
-                <marker date="1498672714000" expanded="false" signature="1144:2912" ph="{&quot;name&quot;: &quot;Finance&quot;...}" />
+                <marker date="1498672881000" expanded="false" signature="1144:2912" ph="{&quot;name&quot;: &quot;Finance&quot;...}" />
               </folding>
             </state>
           </provider>
@@ -309,12 +308,12 @@
       <option name="presentableId" value="Default" />
       <updated>1498045607117</updated>
       <workItem from="1498045608493" duration="53310000" />
-      <workItem from="1498232152789" duration="20434000" />
+      <workItem from="1498232152789" duration="20601000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73744000" />
+    <option name="totallyTimeSpent" value="73911000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -428,7 +427,7 @@
             <element signature="e#10718#12162#0" expanded="false" />
             <element signature="e#12176#13737#0" expanded="false" />
             <element signature="n#!!block;n#getChildContext#0;n#TeachxList#0" expanded="false" />
-            <marker date="1498672714000" expanded="false" signature="1144:2912" ph="{&quot;name&quot;: &quot;Finance&quot;...}" />
+            <marker date="1498672881000" expanded="false" signature="1144:2912" ph="{&quot;name&quot;: &quot;Finance&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -539,8 +538,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/teachx_list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="377" column="21" lean-forward="false" selection-start-line="377" selection-start-column="21" selection-end-line="377" selection-end-column="21" />
+        <state relative-caret-position="377">
+          <caret line="373" column="38" lean-forward="false" selection-start-line="373" selection-start-column="38" selection-end-line="373" selection-end-column="38" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
             <element signature="e#2926#4666#0" expanded="false" />
@@ -551,7 +550,7 @@
             <element signature="e#10718#12162#0" expanded="false" />
             <element signature="e#12176#13737#0" expanded="false" />
             <element signature="n#!!block;n#getChildContext#0;n#TeachxList#0" expanded="false" />
-            <marker date="1498672714000" expanded="false" signature="1144:2912" ph="{&quot;name&quot;: &quot;Finance&quot;...}" />
+            <marker date="1498672881000" expanded="false" signature="1144:2912" ph="{&quot;name&quot;: &quot;Finance&quot;...}" />
           </folding>
         </state>
       </provider>
