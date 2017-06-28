@@ -52,16 +52,13 @@ class SubjList extends Component {
         const x = 40 + Math.round(5 * (Math.random() - 0.5)),
             y = 40 + Math.round(5 * (Math.random() - 0.5));
 
-        const names = ['Financial freedom', 'Finance and Time management', 'Finance and risks', 'Finance and Politics', 'Finance and Stocks', 'Finance and Integrity', 'Finance and the Law', 'Finance and Family'];
-        const name = names[Math.floor(names.length * Math.random())];
-
         return (
             <ListItem key={index}>
                 <div className='left'>
-                    <img src={`http://placekitten.com/g/${x}/${y}`} className='list-item__thumbnail' />
+                    <img src={row.image} className='list-item__thumbnail' />
                 </div>
                 <div className='center'>
-                    {name}
+                    {row.name}
                 </div>
             </ListItem>
         );
@@ -70,9 +67,9 @@ class SubjList extends Component {
     render() {
         return (
             <Page renderToolbar={this.renderToolbar}>
-                <div style={{height:'40vh', width:'100vw', backgroundColor:'#00bcd4', display:'flex',
+                <div dataSource={this.props.resources} style={{height:'40vh', width:'100vw', backgroundColor:'#00bcd4', display:'flex',
                     flexDirection:'column',  justifyContent:'center', alignItems: 'center'}}>
-                    <img style={{width:120, height:120, borderRadius:50}} src={'http://cdn.publishyourarticles.net/wp-content/uploads/2015/06/7027601297_5e90a918e2_b.jpg'} />
+                    <img style={{width:120, height:120, borderRadius:50}} src={this.props.image} />
                 </div>
                 <List
                     dataSource={this.props.resources}
@@ -82,7 +79,7 @@ class SubjList extends Component {
             </Page>
         );
     }
-};
+}
 SubjList.childContextTypes = {
     muiTheme: getMuiTheme(baseTheme)
 };

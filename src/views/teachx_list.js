@@ -8,6 +8,8 @@ import {GridList, GridTile} from 'material-ui/GridList';
 import IconButton from 'material-ui/IconButton';
 import StarBorder from 'material-ui/svg-icons/toggle/star-border';
 import SubjList from './subj_list';
+//http://cdn.publishyourarticles.net/wp-content/uploads/2015/06/7027601297_5e90a918e2_b.jpg
+//https://vatelconnect.com/files/page/21/big_big_1403789152.png
 const styles = {
     root: {
         display: 'flex',
@@ -23,265 +25,268 @@ const styles = {
         color: 'rgb(0, 188, 212)',
     },
 };
-const tilesData = [
-    {
-        img: 'http://www.material-ui.com/images/grid-list/00-52-29-429_640.jpg',
-        title: 'Breakfast',
-        author: 'jill111',
-    },
-    {
-        img: 'http://www.material-ui.com/images/grid-list/burger-827309_640.jpg',
-        title: 'Tasty burger',
-        author: 'pashminu',
-    },
-    {
-        img: 'http://www.material-ui.com/images/grid-list/camera-813814_640.jpg',
-        title: 'Camera',
-        author: 'Danson67',
-    },
-    {
-        img: 'http://www.material-ui.com/images/grid-list/morning-819362_640.jpg',
-        title: 'Morning',
-        author: 'fancycrave1',
-    },
-    {
-        img: 'http://www.material-ui.com/images/grid-list/hats-829509_640.jpg',
-        title: 'Hats',
-        author: 'Hans',
-    },
-    {
-        img: 'http://www.material-ui.com/images/grid-list/honey-823614_640.jpg',
-        title: 'Honey',
-        author: 'fancycravel',
-    },
-    {
-        img: 'http://www.material-ui.com/images/grid-list/vegetables-790022_640.jpg',
-        title: 'Vegetables',
-        author: 'jill111',
-    },
-    {
-        img: 'http://www.material-ui.com/images/grid-list/water-plant-821293_640.jpg',
-        title: 'Water plant',
-        author: 'BkrmadtyaKarki',
-    },
-];
 
 const data = [
     {
         name: 'Personal development',
-        description: 'Financial Literacy topics',
+        description: 'Self improvement topics',
         courses: [
             {
                 name: "Finance",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/00-52-29-429_640.jpg",
+                description: "Financial Literacy topics",
+                image: "http://cdn.publishyourarticles.net/wp-content/uploads/2015/06/7027601297_5e90a918e2_b.jpg",
                 resources : [
                     {
-                        name : 'How to get away with murder',
+                        name : 'Introduction',
                         description : '',
-                        image : '',
+                        image : 'http://cdn.publishyourarticles.net/wp-content/uploads/2015/06/7027601297_5e90a918e2_b.jpg',
                         link : ''
                     },
                     {
-                        name : 'How to get away with murder',
+                        name : 'Make a budget',
                         description : '',
-                        image : '',
+                        image : 'http://cdn.publishyourarticles.net/wp-content/uploads/2015/06/7027601297_5e90a918e2_b.jpg',
                         link : ''
                     },
                     {
-                        name : 'How to get away with murder',
+                        name : 'Spend your money successfully',
                         description : '',
-                        image : '',
+                        image : 'http://cdn.publishyourarticles.net/wp-content/uploads/2015/06/7027601297_5e90a918e2_b.jpg',
                         link : ''
                     },
                     {
-                        name : 'How to get away with murder',
+                        name : 'Make smart investments',
                         description : '',
-                        image : '',
+                        image : 'http://cdn.publishyourarticles.net/wp-content/uploads/2015/06/7027601297_5e90a918e2_b.jpg',
                         link : ''
                     },
                     {
-                        name : 'How to get away with murder',
+                        name : 'Build your savings',
                         description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
+                        image : 'http://cdn.publishyourarticles.net/wp-content/uploads/2015/06/7027601297_5e90a918e2_b.jpg',
                         link : ''
                     }
                 ]
             },
             {
-                name: "Finance2",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/burger-827309_640.jpg",
+                name: "Stage Fright",
+                description: "Overcoming Stage Fright",
+                image: "https://singingmachine.com/wp-content/uploads/2016/11/stage-fright.jpg",
                 resources : [
                     {
-                        name : 'How to get away with murder',
+                        name : 'Introduction',
                         description : '',
-                        image : '',
+                        image : 'https://singingmachine.com/wp-content/uploads/2016/11/stage-fright.jpg',
                         link : ''
                     },
                     {
-                        name : 'How to get away with murder',
+                        name : 'Relaxing Your Body',
                         description : '',
-                        image : '',
+                        image : 'https://singingmachine.com/wp-content/uploads/2016/11/stage-fright.jpg',
                         link : ''
                     },
                     {
-                        name : 'How to get away with murder',
+                        name : 'Overcoming Stage Fright for a Speech or Presentation',
                         description : '',
-                        image : '',
+                        image : 'https://singingmachine.com/wp-content/uploads/2016/11/stage-fright.jpg',
                         link : ''
                     },
                     {
-                        name : 'How to get away with murder',
+                        name : 'General Strategies For Overcoming Stage Fright',
                         description : '',
-                        image : '',
+                        image : 'https://singingmachine.com/wp-content/uploads/2016/11/stage-fright.jpg',
                         link : ''
                     },
                     {
-                        name : 'How to get away with murder',
+                        name : 'Overcoming Stage Fright for an Acting Performance',
                         description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
+                        image : 'https://singingmachine.com/wp-content/uploads/2016/11/stage-fright.jpg',
                         link : ''
                     }
                 ]
             },
             {
-                name: "Finance3",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/camera-813814_640.jpg",
+                name: "Emergencies",
+                description: "How To Handle Emergencies At Workplace",
+                image: "https://www.usnews.com/cmsmedia/78/80/e6d65a0c4e439d2fbc9181abc626/160115-officeemergency-stock.jpg",
                 resources : [
                     {
-                        name : 'How to get away with murder',
+                        name : 'Introduction',
                         description : '',
-                        image : '',
+                        image : 'https://www.usnews.com/cmsmedia/78/80/e6d65a0c4e439d2fbc9181abc626/160115-officeemergency-stock.jpg',
                         link : ''
                     },
                     {
-                        name : 'How to get away with murder',
+                        name : 'Assessing the Emergency',
                         description : '',
-                        image : '',
+                        image : 'https://www.usnews.com/cmsmedia/78/80/e6d65a0c4e439d2fbc9181abc626/160115-officeemergency-stock.jpg',
                         link : ''
                     },
                     {
-                        name : 'How to get away with murder',
+                        name : 'Handling the Emergency',
                         description : '',
-                        image : '',
+                        image : 'https://www.usnews.com/cmsmedia/78/80/e6d65a0c4e439d2fbc9181abc626/160115-officeemergency-stock.jpg',
                         link : ''
                     },
                     {
-                        name : 'How to get away with murder',
+                        name : 'Being Prepared',
                         description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
+                        image : 'https://www.usnews.com/cmsmedia/78/80/e6d65a0c4e439d2fbc9181abc626/160115-officeemergency-stock.jpg',
                         link : ''
                     }
                 ]
             },
             {
-                name: "Finance4",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/vegetables-790022_640.jpg",
+                name: "Inferiority",
+                description: "How To Handle Inferiority Complex at Workplace",
+                image: "http://www.universestars.com/wp-content/uploads/2016/10/The-feeling-of-inferiority-Universe-Stars.jpg",
                 resources : [
                     {
-                        name : 'How to get away with murder',
+                        name : 'Introduction',
                         description : '',
-                        image : '',
+                        image : 'https://www.usnews.com/cmsmedia/78/80/e6d65a0c4e439d2fbc9181abc626/160115-officeemergency-stock.jpg',
                         link : ''
                     },
                     {
-                        name : 'How to get away with murder',
+                        name : 'Confronting Your Feelings',
                         description : '',
-                        image : '',
+                        image : 'https://www.usnews.com/cmsmedia/78/80/e6d65a0c4e439d2fbc9181abc626/160115-officeemergency-stock.jpg',
                         link : ''
                     },
                     {
-                        name : 'How to get away with murder',
+                        name : 'Changing The Way You Think',
                         description : '',
-                        image : '',
+                        image : 'https://www.usnews.com/cmsmedia/78/80/e6d65a0c4e439d2fbc9181abc626/160115-officeemergency-stock.jpg',
                         link : ''
                     },
                     {
-                        name : 'How to get away with murder',
+                        name : 'Making Positive Steps',
                         description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
+                        image : 'https://www.usnews.com/cmsmedia/78/80/e6d65a0c4e439d2fbc9181abc626/160115-officeemergency-stock.jpg',
                         link : ''
                     }
                 ]
             },
             {
-                name: "Finance5",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/water-plant-821293_640.jpg",
+                name: "Communication Skills",
+                description: "Communicating better at Workplace",
+                image: "http://www.bestadvice.co.uk/wp-content/uploads/2012/11/listening-feedback-communication.jpg",
                 resources : [
                     {
-                        name : 'How to get away with murder',
+                        name : 'Introduction',
                         description : '',
-                        image : '',
+                        image : 'http://www.bestadvice.co.uk/wp-content/uploads/2012/11/listening-feedback-communication.jpg',
                         link : ''
                     },
                     {
-                        name : 'How to get away with murder',
+                        name : 'Understanding the Basics of Communication Skills',
                         description : '',
-                        image : '',
+                        image : 'http://www.bestadvice.co.uk/wp-content/uploads/2012/11/listening-feedback-communication.jpg',
                         link : ''
                     },
                     {
-                        name : 'How to get away with murder',
+                        name : 'Engaging Your Audience',
                         description : '',
-                        image : '',
+                        image : 'http://www.bestadvice.co.uk/wp-content/uploads/2012/11/listening-feedback-communication.jpg',
                         link : ''
                     },
                     {
-                        name : 'How to get away with murder',
+                        name : 'Using Your Words',
                         description : '',
-                        image : '',
+                        image : 'http://www.bestadvice.co.uk/wp-content/uploads/2012/11/listening-feedback-communication.jpg',
+                        link : ''
+                    }
+                ]
+            },
+            {
+                name: "Professionalism",
+                description: "Being Professional at Workplace",
+                image: "https://vatelconnect.com/files/page/21/big_big_1403789152.png",
+                resources : [
+                    {
+                        name : 'Introduction',
+                        description : '',
+                        image : 'https://vatelconnect.com/files/page/21/big_big_1403789152.png',
                         link : ''
                     },
                     {
-                        name : 'How to get away with murder',
+                        name : 'Presenting Your Self in a Professional Manner',
                         description : '',
-                        image : '',
+                        image : 'https://vatelconnect.com/files/page/21/big_big_1403789152.png',
                         link : ''
                     },
                     {
-                        name : 'How to get away with murder',
+                        name : 'Communicating Effectively',
                         description : '',
-                        image : '',
+                        image : 'https://vatelconnect.com/files/page/21/big_big_1403789152.png',
+                        link : ''
+                    },
+                    {
+                        name : 'Interacting Professionally',
+                        description : '',
+                        image : 'https://vatelconnect.com/files/page/21/big_big_1403789152.png',
+                        link : ''
+                    }
+                ]
+            },
+            {
+                name: "Time Management",
+                description: "Making The Most Of Your Time Resource",
+                image: "http://businessamongmoms.com/wp-content/uploads/2014/09/time-management-1.jpg",
+                resources : [
+                    {
+                        name : 'Introduction',
+                        description : '',
+                        image : 'http://businessamongmoms.com/wp-content/uploads/2014/09/time-management-1.jpg',
+                        link : ''
+                    },
+                    {
+                        name : 'Using Your Time Productively',
+                        description : '',
+                        image : 'http://businessamongmoms.com/wp-content/uploads/2014/09/time-management-1.jpg',
+                        link : ''
+                    },
+                    {
+                        name : 'Minimizing Distractions',
+                        description : '',
+                        image : 'http://businessamongmoms.com/wp-content/uploads/2014/09/time-management-1.jpg',
+                        link : ''
+                    },
+                    {
+                        name : 'Adhering to a Daily Schedule',
+                        description : '',
+                        image : 'http://businessamongmoms.com/wp-content/uploads/2014/09/time-management-1.jpg',
+                        link : ''
+                    }
+                ]
+            },
+            {
+                name: "Side Business",
+                description: "running a small business part-time",
+                image: "https://s3.amazonaws.com/mentoring.redesign/s3fs-public/3-2-business-woman-works-coffee-shop.jpg",
+                resources : [
+                    {
+                        name : 'Introduction',
+                        description : '',
+                        image : 'https://s3.amazonaws.com/mentoring.redesign/s3fs-public/3-2-business-woman-works-coffee-shop.jpg',
+                        link : ''
+                    },
+                    {
+                        name : 'Demonstrating Qualities Gained Through Your Side Business',
+                        description : '',
+                        image : 'https://s3.amazonaws.com/mentoring.redesign/s3fs-public/3-2-business-woman-works-coffee-shop.jpg',
+                        link : ''
+                    },
+                    {
+                        name : 'Expanding Your Marketability',
+                        description : '',
+                        image : 'https://s3.amazonaws.com/mentoring.redesign/s3fs-public/3-2-business-woman-works-coffee-shop.jpg',
+                        link : ''
+                    },
+                    {
+                        name : 'Improving your skills',
+                        description : '',
+                        image : 'https://s3.amazonaws.com/mentoring.redesign/s3fs-public/3-2-business-woman-works-coffee-shop.jpg',
                         link : ''
                     }
                 ]
@@ -289,1522 +294,86 @@ const data = [
         ]
     },
     {
-        name: 'Personal development',
-        description: 'Financial Literacy topics',
+        name: 'Technology and Devices',
+        description: 'Information technology topics',
         courses: [
             {
-                name: "Finance",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/00-52-29-429_640.jpg",
+                name: "Build a PCB",
+                description: "How to build a PCB",
+                image: "http://www.thefrankes.com/wp/wp-content/uploads/2012/02/sanguinololu-pcb-03.jpg",
                 resources : [
                     {
-                        name : 'How to get away with murder',
+                        name : 'Introduction',
                         description : '',
-                        image : '',
+                        image : 'http://www.thefrankes.com/wp/wp-content/uploads/2012/02/sanguinololu-pcb-03.jpg',
                         link : ''
                     },
                     {
-                        name : 'How to get away with murder',
+                        name : 'Design',
                         description : '',
-                        image : '',
+                        image : 'http://www.thefrankes.com/wp/wp-content/uploads/2012/02/sanguinololu-pcb-03.jpg',
                         link : ''
                     },
                     {
-                        name : 'How to get away with murder',
+                        name : 'Etching',
                         description : '',
-                        image : '',
+                        image : 'http://www.thefrankes.com/wp/wp-content/uploads/2012/02/sanguinololu-pcb-03.jpg',
                         link : ''
                     },
                     {
-                        name : 'How to get away with murder',
+                        name : 'Assembly',
                         description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
+                        image : 'http://www.thefrankes.com/wp/wp-content/uploads/2012/02/sanguinololu-pcb-03.jpg',
                         link : ''
                     }
                 ]
             },
             {
-                name: "Finance2",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/burger-827309_640.jpg",
+                name: "Tail lights",
+                description: "How to fix your car tail lights",
+                image: "https://i.ytimg.com/vi/a2LBahlzR-A/maxresdefault.jpg",
                 resources : [
                     {
-                        name : 'How to get away with murder',
+                        name : 'Introduction',
                         description : '',
-                        image : '',
+                        image : 'https://i.ytimg.com/vi/a2LBahlzR-A/maxresdefault.jpg',
                         link : ''
                     },
                     {
-                        name : 'How to get away with murder',
+                        name : 'Finding the Right Bulb and Where It Goes',
                         description : '',
-                        image : '',
+                        image : 'https://i.ytimg.com/vi/a2LBahlzR-A/maxresdefault.jpg',
                         link : ''
                     },
                     {
-                        name : 'How to get away with murder',
+                        name : 'Removing An Old Turn Signal Bulb',
                         description : '',
-                        image : '',
+                        image : 'https://i.ytimg.com/vi/a2LBahlzR-A/maxresdefault.jpg',
                         link : ''
                     },
                     {
-                        name : 'How to get away with murder',
+                        name : 'Installing a New Bulb',
                         description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
+                        image : 'https://i.ytimg.com/vi/a2LBahlzR-A/maxresdefault.jpg',
                         link : ''
                     }
                 ]
             },
             {
-                name: "Finance3",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/camera-813814_640.jpg",
+                name: "Batteries",
+                description: "Troubleshooting car batteries",
+                image: "http://www.xn--raunalniki-njb.eu/wp-content/uploads/2016/11/Najbolj%C5%A1e-polnilne-baterije.jpg",
                 resources : [
                     {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            },
-            {
-                name: "Finance4",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/vegetables-790022_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            },
-            {
-                name: "Finance5",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/water-plant-821293_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        name: 'Personal development',
-        description: 'Financial Literacy topics',
-        courses: [
-            {
-                name: "Finance",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/00-52-29-429_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            },
-            {
-                name: "Finance2",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/burger-827309_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            },
-            {
-                name: "Finance3",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/camera-813814_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            },
-            {
-                name: "Finance4",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/vegetables-790022_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            },
-            {
-                name: "Finance5",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/water-plant-821293_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        name: 'Personal development',
-        description: 'Financial Literacy topics',
-        courses: [
-            {
-                name: "Finance",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/00-52-29-429_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            },
-            {
-                name: "Finance2",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/burger-827309_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            },
-            {
-                name: "Finance3",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/camera-813814_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            },
-            {
-                name: "Finance4",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/vegetables-790022_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            },
-            {
-                name: "Finance5",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/water-plant-821293_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        name: 'Personal development',
-        description: 'Financial Literacy topics',
-        courses: [
-            {
-                name: "Finance",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/00-52-29-429_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            },
-            {
-                name: "Finance2",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/burger-827309_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            },
-            {
-                name: "Finance3",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/camera-813814_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            },
-            {
-                name: "Finance4",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/vegetables-790022_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            },
-            {
-                name: "Finance5",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/water-plant-821293_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        name: 'Personal development',
-        description: 'Financial Literacy topics',
-        courses: [
-            {
-                name: "Finance",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/00-52-29-429_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            },
-            {
-                name: "Finance2",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/burger-827309_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            },
-            {
-                name: "Finance3",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/camera-813814_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            },
-            {
-                name: "Finance4",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/vegetables-790022_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            },
-            {
-                name: "Finance5",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/water-plant-821293_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        name: 'Personal development',
-        description: 'Financial Literacy topics',
-        courses: [
-            {
-                name: "Finance",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/00-52-29-429_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            },
-            {
-                name: "Finance2",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/burger-827309_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            },
-            {
-                name: "Finance3",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/camera-813814_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            },
-            {
-                name: "Finance4",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/vegetables-790022_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            },
-            {
-                name: "Finance5",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/water-plant-821293_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        name: 'Personal development',
-        description: 'Financial Literacy topics',
-        courses: [
-            {
-                name: "Finance",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/00-52-29-429_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            },
-            {
-                name: "Finance2",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/burger-827309_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            },
-            {
-                name: "Finance3",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/camera-813814_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            },
-            {
-                name: "Finance4",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/vegetables-790022_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    }
-                ]
-            },
-            {
-                name: "Finance5",
-                description: "money matters",
-                image: "http://www.material-ui.com/images/grid-list/water-plant-821293_640.jpg",
-                resources : [
-                    {
-                        name : 'How to get away with murder',
+                        name : 'Introduction',
                         description : '',
-                        image : '',
+                        image : 'http://www.xn--raunalniki-njb.eu/wp-content/uploads/2016/11/Najbolj%C5%A1e-polnilne-baterije.jpg',
                         link : ''
                     },
                     {
                         name : 'How to get away with murder',
                         description : '',
-                        image : '',
+                        image : 'http://www.xn--raunalniki-njb.eu/wp-content/uploads/2016/11/Najbolj%C5%A1e-polnilne-baterije.jpg',
                         link : ''
                     },
                     {
@@ -1857,7 +426,7 @@ class TeachxList extends Component {
                 <div className="center"></div>
                 <div className="right">
                     <ToolbarButton>
-                        <Icon icon="md-menu" />
+                        <Icon icon="ion-android-more-vertical" />
                     </ToolbarButton>
                 </div>
             </Toolbar> }
@@ -1867,7 +436,7 @@ class TeachxList extends Component {
                 <h2 style={{color:'white'}}>MUTA</h2>
             </div>
 
-            <div style={{height:'30vh', width:'100vw', paddingLeft:20, paddingBottom:40}}>
+            <div style={{height:'100vh', maxHeight:'100vh', overflow:'scroll', width:'100vw', paddingLeft:20, paddingBottom:40, backgroundColor:'#95a5a6', color:'white'}}>
                 {data.map(item => {
                     return <div>
                         <h4>{item.name}</h4>
@@ -1886,7 +455,8 @@ class TeachxList extends Component {
                                             this.props.navigator.pushPage({
                                                 component : SubjList,
                                                 props : {
-                                                    resources : tile.resources
+                                                    resources : tile.resources,
+                                                    image: tile.image
                                                 }
                                             })
                                         }} src={tile.image} />
