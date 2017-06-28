@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f659bb6f-1d2f-4dd0-b47f-737810752c14" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/subj_list.js" afterPath="$PROJECT_DIR$/src/views/subj_list.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/teachx_list.js" afterPath="$PROJECT_DIR$/src/views/teachx_list.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,8 +55,8 @@
       <file leaf-file-name="teachx_list.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/views/teachx_list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="375" column="129" lean-forward="false" selection-start-line="375" selection-start-column="129" selection-end-line="375" selection-end-column="129" />
+            <state relative-caret-position="464">
+              <caret line="377" column="21" lean-forward="false" selection-start-line="377" selection-start-column="21" selection-end-line="377" selection-end-column="21" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
                 <element signature="e#2926#4666#0" expanded="false" />
@@ -70,7 +67,7 @@
                 <element signature="e#10718#12162#0" expanded="false" />
                 <element signature="e#12176#13737#0" expanded="false" />
                 <element signature="n#!!block;n#getChildContext#0;n#TeachxList#0" expanded="false" />
-                <marker date="1498671164000" expanded="false" signature="1144:2912" ph="{&quot;name&quot;: &quot;Finance&quot;...}" />
+                <marker date="1498672714000" expanded="false" signature="1144:2912" ph="{&quot;name&quot;: &quot;Finance&quot;...}" />
               </folding>
             </state>
           </provider>
@@ -312,16 +309,16 @@
       <option name="presentableId" value="Default" />
       <updated>1498045607117</updated>
       <workItem from="1498045608493" duration="53310000" />
-      <workItem from="1498232152789" duration="19927000" />
+      <workItem from="1498232152789" duration="20434000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73237000" />
+    <option name="totallyTimeSpent" value="73744000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25274727" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -330,7 +327,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -431,7 +428,7 @@
             <element signature="e#10718#12162#0" expanded="false" />
             <element signature="e#12176#13737#0" expanded="false" />
             <element signature="n#!!block;n#getChildContext#0;n#TeachxList#0" expanded="false" />
-            <marker date="1498671164000" expanded="false" signature="1144:2912" ph="{&quot;name&quot;: &quot;Finance&quot;...}" />
+            <marker date="1498672714000" expanded="false" signature="1144:2912" ph="{&quot;name&quot;: &quot;Finance&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -542,8 +539,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/teachx_list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="375" column="129" lean-forward="false" selection-start-line="375" selection-start-column="129" selection-end-line="375" selection-end-column="129" />
+        <state relative-caret-position="464">
+          <caret line="377" column="21" lean-forward="false" selection-start-line="377" selection-start-column="21" selection-end-line="377" selection-end-column="21" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
             <element signature="e#2926#4666#0" expanded="false" />
@@ -554,7 +551,7 @@
             <element signature="e#10718#12162#0" expanded="false" />
             <element signature="e#12176#13737#0" expanded="false" />
             <element signature="n#!!block;n#getChildContext#0;n#TeachxList#0" expanded="false" />
-            <marker date="1498671164000" expanded="false" signature="1144:2912" ph="{&quot;name&quot;: &quot;Finance&quot;...}" />
+            <marker date="1498672714000" expanded="false" signature="1144:2912" ph="{&quot;name&quot;: &quot;Finance&quot;...}" />
           </folding>
         </state>
       </provider>

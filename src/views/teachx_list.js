@@ -375,30 +375,6 @@ const data = [
                         description : '',
                         image : 'http://www.xn--raunalniki-njb.eu/wp-content/uploads/2016/11/Najbolj%C5%A1e-polnilne-baterije.jpg',
                         link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
-                    },
-                    {
-                        name : 'How to get away with murder',
-                        description : '',
-                        image : '',
-                        link : ''
                     }
                 ]
             }
