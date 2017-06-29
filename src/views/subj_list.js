@@ -57,7 +57,9 @@ class SubjList extends Component {
                 if(window.formelo){
                     window.formelo().InAppBrowser(row.link);
                 }
-                window.open(row.link);
+                else {
+                    window.open(row.link);
+                }
             }} key={index}>
                 <div className='left'>
                     <img src={row.image} className='list-item__thumbnail' />
