@@ -54,7 +54,7 @@ class SubjList extends Component {
 
         return (
             <ListItem onClick={()=>{
-                formelo().InAppBrowser(row.link);
+                window.open(row.link);
             }} key={index}>
                 <div className='left'>
                     <img src={row.image} className='list-item__thumbnail' />
