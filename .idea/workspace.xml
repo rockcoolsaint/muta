@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f659bb6f-1d2f-4dd0-b47f-737810752c14" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/subj_list.js" afterPath="$PROJECT_DIR$/src/views/subj_list.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/teachx_list.js" afterPath="$PROJECT_DIR$/src/views/teachx_list.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="290">
@@ -63,24 +62,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="teachx_list.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="teachx_list.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/views/teachx_list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4179">
-              <caret line="526" column="59" lean-forward="false" selection-start-line="526" selection-start-column="59" selection-end-line="526" selection-end-column="59" />
+            <state relative-caret-position="522">
+              <caret line="539" column="109" lean-forward="false" selection-start-line="539" selection-start-column="109" selection-end-line="539" selection-end-column="109" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
-                <element signature="e#3924#5664#0" expanded="false" />
-                <element signature="e#5678#7207#0" expanded="false" />
-                <element signature="e#7221#8775#0" expanded="false" />
-                <element signature="e#8789#10311#0" expanded="false" />
-                <element signature="e#10325#11700#0" expanded="false" />
-                <element signature="e#11714#13158#0" expanded="false" />
-                <element signature="e#13172#14733#0" expanded="false" />
-                <element signature="e#19570#20943#0" expanded="false" />
-                <element signature="e#19794#20929#0" expanded="false" />
-                <element signature="e#20957#21657#0" expanded="false" />
-                <element signature="e#21671#22994#0" expanded="false" />
+                <element signature="e#3934#5674#0" expanded="false" />
+                <element signature="e#5688#7217#0" expanded="false" />
+                <element signature="e#7231#8785#0" expanded="false" />
+                <element signature="e#8799#10321#0" expanded="false" />
+                <element signature="e#10335#11710#0" expanded="false" />
+                <element signature="e#11724#13168#0" expanded="false" />
+                <element signature="e#13182#14743#0" expanded="false" />
+                <element signature="e#14757#19431#0" expanded="false" />
+                <element signature="e#19580#20953#0" expanded="false" />
+                <element signature="e#19804#20939#0" expanded="false" />
+                <element signature="e#20967#21667#0" expanded="false" />
+                <element signature="e#21681#23004#0" expanded="false" />
                 <element signature="n#!!block;n#getChildContext#0;n#TeachxList#0" expanded="false" />
               </folding>
             </state>
@@ -90,7 +90,7 @@
       <file leaf-file-name="subj_list.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/subj_list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1134">
+            <state relative-caret-position="931">
               <caret line="61" column="17" lean-forward="false" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -137,9 +137,9 @@
         <option value="$PROJECT_DIR$/src/views/home.js" />
         <option value="$PROJECT_DIR$/src/views/content.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/views/teachx_list.js" />
         <option value="$PROJECT_DIR$/src/views/subj_list.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/views/teachx_list.js" />
       </list>
     </option>
   </component>
@@ -338,12 +338,12 @@
       <option name="presentableId" value="Default" />
       <updated>1498045607117</updated>
       <workItem from="1498045608493" duration="53310000" />
-      <workItem from="1498232152789" duration="37898000" />
+      <workItem from="1498232152789" duration="45740000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91208000" />
+    <option name="totallyTimeSpent" value="99050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -400,18 +400,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/views/teachx_list.js</url>
-          <line>32</line>
+          <line>33</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/views/teachx_list.js</url>
-          <line>243</line>
+          <line>244</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/views/teachx_list.js</url>
-          <line>33</line>
+          <line>34</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
@@ -455,17 +455,18 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#3924#5664#0" expanded="false" />
-            <element signature="e#5678#7207#0" expanded="false" />
-            <element signature="e#7221#8775#0" expanded="false" />
-            <element signature="e#8789#10311#0" expanded="false" />
-            <element signature="e#10325#11700#0" expanded="false" />
-            <element signature="e#11714#13158#0" expanded="false" />
-            <element signature="e#13172#14733#0" expanded="false" />
-            <element signature="e#19570#20943#0" expanded="false" />
-            <element signature="e#19794#20929#0" expanded="false" />
-            <element signature="e#20957#21657#0" expanded="false" />
-            <element signature="e#21671#22994#0" expanded="false" />
+            <element signature="e#3934#5674#0" expanded="false" />
+            <element signature="e#5688#7217#0" expanded="false" />
+            <element signature="e#7231#8785#0" expanded="false" />
+            <element signature="e#8799#10321#0" expanded="false" />
+            <element signature="e#10335#11710#0" expanded="false" />
+            <element signature="e#11724#13168#0" expanded="false" />
+            <element signature="e#13182#14743#0" expanded="false" />
+            <element signature="e#14757#19431#0" expanded="false" />
+            <element signature="e#19580#20953#0" expanded="false" />
+            <element signature="e#19804#20939#0" expanded="false" />
+            <element signature="e#20967#21667#0" expanded="false" />
+            <element signature="e#21681#23004#0" expanded="false" />
             <element signature="n#!!block;n#getChildContext#0;n#TeachxList#0" expanded="false" />
           </folding>
         </state>
@@ -555,38 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/teachx_list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4179">
-          <caret line="526" column="59" lean-forward="false" selection-start-line="526" selection-start-column="59" selection-end-line="526" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#3924#5664#0" expanded="false" />
-            <element signature="e#5678#7207#0" expanded="false" />
-            <element signature="e#7221#8775#0" expanded="false" />
-            <element signature="e#8789#10311#0" expanded="false" />
-            <element signature="e#10325#11700#0" expanded="false" />
-            <element signature="e#11714#13158#0" expanded="false" />
-            <element signature="e#13172#14733#0" expanded="false" />
-            <element signature="e#19570#20943#0" expanded="false" />
-            <element signature="e#19794#20929#0" expanded="false" />
-            <element signature="e#20957#21657#0" expanded="false" />
-            <element signature="e#21671#22994#0" expanded="false" />
-            <element signature="n#!!block;n#getChildContext#0;n#TeachxList#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/subj_list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="61" column="17" lean-forward="false" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -602,6 +571,39 @@
         <state relative-caret-position="290">
           <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/subj_list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="61" column="17" lean-forward="false" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/teachx_list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="539" column="109" lean-forward="false" selection-start-line="539" selection-start-column="109" selection-end-line="539" selection-end-column="109" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#3934#5674#0" expanded="false" />
+            <element signature="e#5688#7217#0" expanded="false" />
+            <element signature="e#7231#8785#0" expanded="false" />
+            <element signature="e#8799#10321#0" expanded="false" />
+            <element signature="e#10335#11710#0" expanded="false" />
+            <element signature="e#11724#13168#0" expanded="false" />
+            <element signature="e#13182#14743#0" expanded="false" />
+            <element signature="e#14757#19431#0" expanded="false" />
+            <element signature="e#19580#20953#0" expanded="false" />
+            <element signature="e#19804#20939#0" expanded="false" />
+            <element signature="e#20967#21667#0" expanded="false" />
+            <element signature="e#21681#23004#0" expanded="false" />
+            <element signature="n#!!block;n#getChildContext#0;n#TeachxList#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

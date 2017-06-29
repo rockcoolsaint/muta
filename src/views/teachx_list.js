@@ -10,6 +10,7 @@ import StarBorder from 'material-ui/svg-icons/toggle/star-border';
 import SubjList from './subj_list';
 //http://cdn.publishyourarticles.net/wp-content/uploads/2015/06/7027601297_5e90a918e2_b.jpg
 //https://vatelconnect.com/files/page/21/big_big_1403789152.png
+//#95a5a6
 const styles = {
     root: {
         display: 'flex',
@@ -494,7 +495,7 @@ class TeachxList extends Component {
     }
     render(){
         return <Page renderToolbar={() =>
-            <Toolbar style={{backgroundColor:'#00bcd4'}}>
+            <Toolbar style={{backgroundColor:'#2c3e50'}}>
 
                 <div className="center"></div>
                 <div className="right">
@@ -504,36 +505,41 @@ class TeachxList extends Component {
                 </div>
             </Toolbar> }
         >
-            <div style={{height:'5vh', width:'100vw', backgroundColor:'#00bcd4', display:'flex',
-                flexDirection:'column', padding:20, justifyContent:'center'}}>
-                <h2 style={{color:'white'}}>MUTA</h2>
+            <div style={{height:'5vh', width:'100vw', backgroundColor:'#2c3e50', display:'flex',
+                flexDirection:'column', paddingBottom:40, paddingTop:30, paddingLeft:20, justifyContent:'center'}}>
+                <h2 style={{color:'white', marginBottom:0, paddingBottom:0}}>MUTA</h2>
+                <p style={{color:'white', fontSize:'small'}}>Knowledge curated just for you</p>
             </div>
 
-            <div style={{height:'100vh', maxHeight:'100vh', overflow:'scroll', width:'100vw', paddingLeft:20, paddingBottom:40, backgroundColor:'#95a5a6', color:'white'}}>
+            <div style={{height:'100vh', maxHeight:'100vh', overflow:'scroll', width:'100vw', paddingLeft:20, paddingBottom:40, backgroundColor:'white', color:'white'}}>
                 {data.map(item => {
                     return <div>
-                        <h4>{item.name}</h4>
-                        <p style={{marginTop:'-2vh'}}>{item.description}</p>
+                        <h4 style={{color: '#2c3e50'}}>{item.name}</h4>
+                        <p style={{marginTop:'-2vh', color: '#95a5a6'}}>{item.description}</p>
                         <div style={styles.root}>
                             <GridList style={styles.gridList} cols={2.2}>
                                 {item.courses.map(tile => (
                                     <GridTile
+                                        style={{borderRadius:4, marginRight:5}}
                                         key={tile.name}
-                                        title={tile.name}
-                                        actionIcon={<IconButton><StarBorder color="rgb(0, 188, 212)" /></IconButton>}
-                                        titleStyle={styles.titleStyle}
-                                        titleBackground="linear-gradient(to top, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.3) 70%,rgba(0,0,0,0) 100%)"
                                     >
-                                        <img onClick={()=>{
-                                            this.props.navigator.pushPage({
-                                                component : SubjList,
-                                                props : {
-                                                    resources : tile.resources,
-                                                    image: tile.image,
-                                                    name: tile.name
-                                                }
-                                            })
-                                        }} src={tile.image} />
+                                        <div style={{height:500, width:250
+                                        }}>
+                                            <img
+                                                style={{height:140, width:180}}
+                                                onClick={()=>{
+                                                this.props.navigator.pushPage({
+                                                    component : SubjList,
+                                                    props : {
+                                                        resources : tile.resources,
+                                                        image: tile.image,
+                                                        name: tile.name
+                                                    }
+                                                })
+                                            }}
+                                                 src={'https://unsplash.it/180/'+(Math.floor(Math.random()*50)+90)+'/?random'} />
+                                            <p style={{color:'#2c3e50', margin:0, marginTop:3}}>{tile.name}</p>
+                                        </div>
                                     </GridTile>
                                 ))}
                             </GridList>
