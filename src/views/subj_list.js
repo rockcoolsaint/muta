@@ -54,6 +54,9 @@ class SubjList extends Component {
 
         return (
             <ListItem onClick={()=>{
+                if(window.formelo){
+                    window.formelo().InAppBrowser(row.link);
+                }
                 window.open(row.link);
             }} key={index}>
                 <div className='left'>
