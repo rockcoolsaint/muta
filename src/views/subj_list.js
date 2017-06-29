@@ -30,7 +30,7 @@ const styles = {
         color: 'rgb(0, 188, 212)',
     },
 };
-
+//dataSource={this.props.resources}
 class SubjList extends Component {
     renderToolbar() {
         return (
@@ -41,7 +41,7 @@ class SubjList extends Component {
                 <div className="center"></div>
                 <div className="right">
                     <ToolbarButton>
-                        <Icon icon="md-menu" />
+                        <Icon icon="" />
                     </ToolbarButton>
                 </div>
             </Toolbar>
@@ -53,12 +53,14 @@ class SubjList extends Component {
             y = 40 + Math.round(5 * (Math.random() - 0.5));
 
         return (
-            <ListItem key={index}>
+            <ListItem onClick={()=>{
+                formelo().InAppBrowser(row.link);
+            }} key={index}>
                 <div className='left'>
                     <img src={row.image} className='list-item__thumbnail' />
                 </div>
                 <div className='center'>
-                    {row.name}
+                    {row.name} <span>by {row.author}</span>
                 </div>
             </ListItem>
         );
@@ -67,14 +69,14 @@ class SubjList extends Component {
     render() {
         return (
             <Page renderToolbar={this.renderToolbar}>
-                <div dataSource={this.props.resources} style={{height:'40vh', width:'100vw', backgroundColor:'#00bcd4', display:'flex',
+                <div style={{height:'40vh', width:'100vw', backgroundColor:'#00bcd4', display:'flex',
                     flexDirection:'column',  justifyContent:'center', alignItems: 'center'}}>
                     <img style={{width:120, height:120, borderRadius:50}} src={this.props.image} />
                 </div>
                 <List
                     dataSource={this.props.resources}
                     renderRow={this.renderRow}
-                    renderHeader={() => <ListHeader>Finance Topics</ListHeader>}
+                    renderHeader={() => <ListHeader>{this.props.name} Topics</ListHeader>}
                 />
             </Page>
         );

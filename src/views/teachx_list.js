@@ -37,34 +37,46 @@ const data = [
                 image: "http://cdn.publishyourarticles.net/wp-content/uploads/2015/06/7027601297_5e90a918e2_b.jpg",
                 resources : [
                     {
-                        name : 'Introduction',
+                        name : 'How to Forecast Your Retirement Savings',
+                        author: 'Get Rich Slowly Editors',
                         description : '',
-                        image : 'http://cdn.publishyourarticles.net/wp-content/uploads/2015/06/7027601297_5e90a918e2_b.jpg',
-                        link : ''
+                        image : 'http://www.getrichslowly.org/images/grs-fb.jpg',
+                        link : 'http://www.getrichslowly.org/blog/2016/12/26/retirement-savings-projection/'
                     },
                     {
-                        name : 'Make a budget',
+                        name : '7 Ways to Skip the Day Job',
+                        author: 'Get Rich Slowly Editors',
                         description : '',
-                        image : 'http://cdn.publishyourarticles.net/wp-content/uploads/2015/06/7027601297_5e90a918e2_b.jpg',
-                        link : ''
+                        image : 'http://www.getrichslowly.org/images/grs-fb.jpg',
+                        link : 'http://www.getrichslowly.org/blog/2016/12/22/7-ways-skip-day-job/'
                     },
                     {
-                        name : 'Spend your money successfully',
+                        name : 'How to Create Passive Income',
+                        author: 'Roderick Kelly',
                         description : '',
-                        image : 'http://cdn.publishyourarticles.net/wp-content/uploads/2015/06/7027601297_5e90a918e2_b.jpg',
-                        link : ''
+                        image : 'http://www.getrichslowly.org/images/grs-fb.jpg',
+                        link : 'http://www.getrichslowly.org/blog/2016/12/20/233833/'
                     },
                     {
-                        name : 'Make smart investments',
+                        name : 'How to Keep Your Small Business Afloat When Cash Runs Low',
+                        author: 'Barry Bridges',
                         description : '',
-                        image : 'http://cdn.publishyourarticles.net/wp-content/uploads/2015/06/7027601297_5e90a918e2_b.jpg',
-                        link : ''
+                        image : 'https://www.influenceatwork.com/wp-content/uploads/2012/02/the-simple-dollar-logo.png',
+                        link : 'http://www.thesimpledollar.com/how-to-keep-your-small-business-afloat-when-cash-runs-low/'
                     },
                     {
-                        name : 'Build your savings',
+                        name : '9 FACTS ABOUT RETIREMENT',
+                        author: 'Financial Resources USA',
                         description : '',
-                        image : 'http://cdn.publishyourarticles.net/wp-content/uploads/2015/06/7027601297_5e90a918e2_b.jpg',
-                        link : ''
+                        image : 'https://s3.amazonaws.com/static.contentres.com/media/images/e0a0484d-2bab-4073-ac65-74824567a2df.png',
+                        link : 'http://www.financialresources-usa.com/resource-center/retirement/9-facts-about-retirement'
+                    },
+                    {
+                        name : 'Best side jobs for extra cash',
+                        author: 'Megan Wells',
+                        description : '',
+                        image : 'http://www.getrichslowly.org/images/grs-fb.jpg',
+                        link : 'http://www.getrichslowly.org/blog/2015/09/16/top-rated-side-jobs-for-extra-cash/'
                     }
                 ]
             },
@@ -106,7 +118,7 @@ const data = [
                 ]
             },
             {
-                name: "Emergencies",
+                name: "Emergency",
                 description: "How To Handle Emergencies At Workplace",
                 image: "https://www.usnews.com/cmsmedia/78/80/e6d65a0c4e439d2fbc9181abc626/160115-officeemergency-stock.jpg",
                 resources : [
@@ -290,6 +302,77 @@ const data = [
                         link : ''
                     }
                 ]
+            },
+            {
+                name: "Management",
+                description: "Managerial skills",
+                image: "https://static1.squarespace.com/static/555f989ee4b0b9c71e105e02/55625d9be4b0869396ef8423/5565fb5ce4b09867c23bb81e/1432746845061/community-manage.jpg",
+                resources : [
+                    {
+                        name : 'Don\'t Play with Dead Snakes — Kill Projects Before They Kill You',
+                        description : '',
+                        image : 'https://www.dnanexus.com/images/team/img-richard-daly.png',
+                        link : 'http://firstround.com/review/dont-play-with-dead-snakes-kill-projects-before-they-kill-you/',
+                        author: 'Richard Daly'
+                    },
+                    {
+
+                        name : 'How to Lead and Rally a Company Through a Layoff ',
+                        description : '',
+                        image : 'http://menschventures.com/wp-content/themes/laurels/images/bio.jpg',
+                        link : 'http://firstround.com/review/how-to-lead-and-rally-a-company-through-a-layoff/',
+                        author:'Beth Steinberg'
+                    },
+                    {
+                        name : 'Lessons in Tenacity from the Co-Founder of Foursquare',
+                        description : '',
+                        image : 'https://static1.squarespace.com/static/5422fa91e4b09109bad5a2ee/t/58cac67c20099eb73e580abe/1489684110558/',
+                        link : 'http://firstround.com/review/lessons-in-tenacity-from-the-co-founder-of-foursquare/',
+                        author:'Denis Crowley'
+                    },
+                    {
+                        name : 'To Grow Faster, Hit Pause — and Ask These Questions from Stripe’s COO',
+                        description : '',
+                        image : 'https://s3.amazonaws.com/marquee-test-akiaisur2rgicbmpehea/kOZCh3HzQ6WgZ4rcaEu1_Claire%20highres%20%281%29.jpg',
+                        link : 'http://firstround.com/review/to-grow-faster-hit-pause-and-ask-these-questions-from-stripes-coo/',
+                        author:'Claire Hughes'
+                    },
+                    {
+                        name : 'A Field Guide to Identifying and Integrating Independent Board Members',
+                        description : '',
+                        image : 'https://s3.amazonaws.com/marquee-test-akiaisur2rgicbmpehea/oN6WRg1PQ4Ww5DaBPuXf_Michelle-Wilson_085RT%20%281%29.jpg',
+                        link : 'http://firstround.com/review/a-field-guide-to-identifying-and-integrating-independent-board-members/',
+                        author:'Michelle Wilson'
+                    },
+                    {
+                        name : 'From Burning Millions to Turning Profitable in Seven Months — How HotelTonight Did It',
+                        description : '',
+                        image : 'https://s3.amazonaws.com/marquee-test-akiaisur2rgicbmpehea/GXZFSzHCTMSxXpKsrGDc_Sam%20Shank%20Couch.jpg',
+                        link : 'http://firstround.com/review/from-burning-millions-to-turning-profitable-in-seven-months-how-hoteltonight-did-it/',
+                        author:'Sam Shank'
+                    },
+                    {
+                        name:'PlanGrid\'s Playbook for Startups to Crack Big, Established Industries',
+                        description:'',
+                        image:'https://s3.amazonaws.com/marquee-test-akiaisur2rgicbmpehea/0bAp647HRbyeigcJh4OL_MGP_2263.jpg',
+                        link :'http://firstround.com/review/plangrids-playbook-for-startups-to-crack-open-big-established-industries/',
+                        author:'Tracy Young'
+                    },
+                    {
+                        name:'How to Save Your Company From A Communications Crisis',
+                        description:'',
+                        image:'http://dw0mufowhkm1s.cloudfront.net/assets/uploads/2016/09/RkuYtG3Z6ZTtR-218x150.jpg',
+                        link :'http://firstround.com/review/how-the-u-s-forest-service-can-save-your-company-from-a-crisis/',
+                        author:'Krista Berlincourt'
+                    },
+                    {
+                        name:'The Principles of Quantum Team Management',
+                        description:'',
+                        image:'https://s3.amazonaws.com/marquee-test-akiaisur2rgicbmpehea/o7l4yLwWTpKTkUdVyuZb_jim%20hero.jpg',
+                        link :'http://firstround.com/review/the-principles-of-quantum-team-management/',
+                        author:'James Everingham'
+                    }
+                ]
             }
         ]
     },
@@ -329,6 +412,20 @@ const data = [
                 ]
             },
             {
+                name : 'AI',
+                description : 'Artificial Intelligence',
+                image : 'https://www.ariasystems.com/blog/wp-content/uploads/2016/10/AI-machine-learning.jpg',
+                resources : [
+                    {
+                        name : 'The AI Revolution: The Road to Superintelligence',
+                        author: 'Tim Urban',
+                        description : '',
+                        image : 'https://i1.sndcdn.com/artworks-000167577183-9m4fgp-t500x500.jpg',
+                        link : 'https://getpocket.com/explore/item/the-ai-revolution-the-road-to-superintelligence-823279599',
+                    }
+                ]
+            },
+            {
                 name: "Tail lights",
                 description: "How to fix your car tail lights",
                 image: "https://i.ytimg.com/vi/a2LBahlzR-A/maxresdefault.jpg",
@@ -360,7 +457,7 @@ const data = [
                 ]
             },
             {
-                name: "Batteries",
+                name: "Battery",
                 description: "Troubleshooting car batteries",
                 image: "http://www.xn--raunalniki-njb.eu/wp-content/uploads/2016/11/Najbolj%C5%A1e-polnilne-baterije.jpg",
                 resources : [
@@ -402,7 +499,7 @@ class TeachxList extends Component {
                 <div className="center"></div>
                 <div className="right">
                     <ToolbarButton>
-                        <Icon icon="ion-android-more-vertical" />
+                        <Icon icon="" />
                     </ToolbarButton>
                 </div>
             </Toolbar> }
@@ -432,7 +529,8 @@ class TeachxList extends Component {
                                                 component : SubjList,
                                                 props : {
                                                     resources : tile.resources,
-                                                    image: tile.image
+                                                    image: tile.image,
+                                                    name: tile.name
                                                 }
                                             })
                                         }} src={tile.image} />
