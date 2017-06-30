@@ -10,6 +10,8 @@ import StarBorder from 'material-ui/svg-icons/toggle/star-border';
 import Avatar from 'material-ui/Avatar';
 import FileFolder from 'material-ui/svg-icons/file/folder';
 import FontIcon from 'material-ui/FontIcon';
+import {Tabs, Tab} from 'material-ui/Tabs';
+
 
 
 
@@ -31,11 +33,28 @@ const styles = {
     },
 };
 //dataSource={this.props.resources}
+//backgroundColor:'#00bcd4'
+//<img style={{width:120, height:120, borderRadius:50}} src={this.props.image} />
+//new, trending, most viewed
 class SubjList extends Component {
+    constructor(props) {
+        super(props);
+        const color_codes = ["#1abc9c","#3498db","#7f8c8d","#8e44ad","#c0392b"];
+        const colorIndex = Math.floor(Math.random() * color_codes.length);
+        this.state = {
+            value: 'a',
+            color : color_codes[colorIndex]
+        };
+    }
+    handleChange = (value) => {
+        this.setState({
+            value: value,
+        });
+    };
     renderToolbar() {
         return (
-            <Toolbar style={{backgroundColor:'#00bcd4'}}>
-                <div className="left" style={{backgroundColor:'#00bcd4'}}>
+            <Toolbar style={{backgroundColor:this.state.color}}>
+                <div className="left">
                     <BackButton>Back</BackButton>
                 </div>
                 <div className="center"></div>
@@ -53,7 +72,7 @@ class SubjList extends Component {
             y = 40 + Math.round(5 * (Math.random() - 0.5));
 
         return (
-            <ListItem onClick={()=>{
+            <ListItem style={{borderBottom:'1px solid #efefef'}} onClick={()=>{
                 if(window.formelo){
                     window.formelo().InAppBrowser(row.link);
                 }
@@ -62,27 +81,57 @@ class SubjList extends Component {
                 }
             }} key={index}>
                 <div className='left'>
-                    <img src={row.image} className='list-item__thumbnail' />
+                    <img src={row.image} className='list-item__thumbnail left' style={{height:50, width:50}}/>
                 </div>
-                <div className='center'>
-                    {row.name} <span>by {row.author}</span>
+                <div className='center' style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start'}}>
+                    <p>{row.name}</p>
+                    <p style={{fontSize: 'small', color:'#757575', marginTop:-10}}>by {row.author}<span> .100 views</span></p>
                 </div>
             </ListItem>
         );
     }
-
+    getChildContext() {
+        return { muiTheme: getMuiTheme(baseTheme) };
+    }
     render() {
         return (
-            <Page renderToolbar={this.renderToolbar}>
-                <div style={{height:'40vh', width:'100vw', backgroundColor:'#00bcd4', display:'flex',
+            <Page renderToolbar={this.renderToolbar.bind(this)}>
+                <div style={{height:'20vh', width:'100vw', backgroundColor:this.state.color, display:'flex',
                     flexDirection:'column',  justifyContent:'center', alignItems: 'center'}}>
-                    <img style={{width:120, height:120, borderRadius:50}} src={this.props.image} />
+                    <p style={{fontSize: '1.5em', color:'white', textAlign:'center'}}>{this.props.name} Resources</p>
                 </div>
-                <List
-                    dataSource={this.props.resources}
-                    renderRow={this.renderRow}
-                    renderHeader={() => <ListHeader>{this.props.name} Topics</ListHeader>}
-                />
+                <Tabs
+                    value={this.state.value}
+                    tabItemContainerStyle={{
+                        backgroundColor: this.state.color,
+                    }}
+                    onChange={()=>{this.handleChange()}}
+                >
+                    <Tab label="New" value="a">
+                        <List
+                            dataSource={this.props.resources}
+                            renderRow={this.renderRow}
+                            //renderHeader={() => <ListHeader>{this.props.name} Resources</ListHeader>}
+                        />
+                    </Tab>
+                    <Tab label="Trending" value="b">
+                        <List
+                            dataSource={this.props.resources}
+                            renderRow={this.renderRow}
+                            //renderHeader={() => <ListHeader>{this.props.name} Resources</ListHeader>}
+                        />
+                    </Tab>
+                    <Tab label="Most Viewed" value="b">
+                        <div>
+                            <h2>Controllable Tab C</h2>
+                            <p>
+                                This is another example of a controllable tab. Remember, if you
+                                use controllable Tabs, you need to give all of your tabs values or else
+                                you wont be able to select them.
+                            </p>
+                        </div>
+                    </Tab>
+                </Tabs>
             </Page>
         );
     }
