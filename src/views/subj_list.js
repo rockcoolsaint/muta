@@ -43,10 +43,39 @@ class SubjList extends Component {
         const colorIndex = Math.floor(Math.random() * color_codes.length);
         this.state = {
             value: 'a',
-            color : color_codes[colorIndex]
+            color : color_codes[colorIndex],
+            result1 : [],
+            result2 : [],
+            result3 : [],
         };
+        this.taggedContent = this.taggedContent.bind(this);
     }
-
+    componentDidMount(){
+        this.taggedContent();
+    }
+    taggedContent() {
+        let source = this.props.resources;
+        let result1 = source.filter(item => {
+            if (item.tag === 1){
+                return item;
+            }
+        });
+        let result2 = source.filter(item => {
+            if (item.tag === 2){
+                return item;
+            }
+        });
+        let result3 = source.filter(item => {
+            if (item.tag === 3){
+                return item;
+            }
+        });
+        this.setState({
+            result1,
+            result2,
+            result3
+        });
+    }
     handleChange = (value) => {
         this.setState({
             value: value,
@@ -110,20 +139,21 @@ class SubjList extends Component {
                 >
                     <Tab label="New" value="a">
                         <List
-                            dataSource={this.props.resources}
+                            dataSource={this.state.result1}
                             renderRow={this.renderRow}
-                            //renderHeader={() => <ListHeader>{this.props.name} Resources</ListHeader>}
                         />
                     </Tab>
                     <Tab label="Trending" value="b">
                         <List
-                            dataSource={this.props.resources}
+                            dataSource={this.state.result2}
                             renderRow={this.renderRow}
-                            //renderHeader={() => <ListHeader>{this.props.name} Resources</ListHeader>}
                         />
                     </Tab>
-                    <Tab label="Most Viewed" value="b">
-
+                    <Tab label="Most Viewed" value="c">
+                        <List
+                            dataSource={this.state.result3}
+                            renderRow={this.renderRow}
+                        />
                     </Tab>
                 </Tabs>
             </Page>

@@ -521,7 +521,7 @@ class TeachxList extends Component {
                 {data.map(item => {
                     return <div>
                         <h4 style={{color: '#2c3e50'}}>{item.name}</h4>
-                        <p style={{marginTop:'-2vh', color: '#95a5a6'}}>{item.description}</p>
+                        <p style={{marginTop:'-3vh', fontSize:'smaller', color: '#95a5a6'}}>{item.description}</p>
                         <div style={styles.root}>
                             <GridList style={styles.gridList} cols={2.2}>
                                 {item.courses.map(tile => (
