@@ -46,6 +46,7 @@ class SubjList extends Component {
             color : color_codes[colorIndex]
         };
     }
+
     handleChange = (value) => {
         this.setState({
             value: value,
@@ -85,7 +86,7 @@ class SubjList extends Component {
                 </div>
                 <div className='center' style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start'}}>
                     <p>{row.name}</p>
-                    <p style={{fontSize: 'small', color:'#757575', marginTop:-10}}>by {row.author}<span> .100 views</span></p>
+                    <p style={{fontSize: 'small', color:'#757575', marginTop:-10}}>By {row.author}<span> .100 views</span></p>
                 </div>
             </ListItem>
         );
@@ -96,7 +97,7 @@ class SubjList extends Component {
     render() {
         return (
             <Page renderToolbar={this.renderToolbar.bind(this)}>
-                <div style={{height:'20vh', width:'100vw', backgroundColor:this.state.color, display:'flex',
+                <div style={{width:'100vw', backgroundColor:this.state.color, display:'flex',
                     flexDirection:'column',  justifyContent:'center', alignItems: 'center'}}>
                     <p style={{fontSize: '1.5em', color:'white', textAlign:'center'}}>{this.props.name} Resources</p>
                 </div>
@@ -122,14 +123,7 @@ class SubjList extends Component {
                         />
                     </Tab>
                     <Tab label="Most Viewed" value="b">
-                        <div>
-                            <h2>Controllable Tab C</h2>
-                            <p>
-                                This is another example of a controllable tab. Remember, if you
-                                use controllable Tabs, you need to give all of your tabs values or else
-                                you wont be able to select them.
-                            </p>
-                        </div>
+
                     </Tab>
                 </Tabs>
             </Page>

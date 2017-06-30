@@ -42,42 +42,48 @@ const data = [
                         author: 'Get Rich Slowly Editors',
                         description : '',
                         image : 'http://www.getrichslowly.org/images/grs-fb.jpg',
-                        link : 'http://www.getrichslowly.org/blog/2016/12/26/retirement-savings-projection/'
+                        link : 'http://www.getrichslowly.org/blog/2016/12/26/retirement-savings-projection/',
+                        tag: 1
                     },
                     {
                         name : '7 Ways to Skip the Day Job',
                         author: 'Get Rich Slowly Editors',
                         description : '',
                         image : 'http://www.getrichslowly.org/images/grs-fb.jpg',
-                        link : 'http://www.getrichslowly.org/blog/2016/12/22/7-ways-skip-day-job/'
+                        link : 'http://www.getrichslowly.org/blog/2016/12/22/7-ways-skip-day-job/',
+                        tag: 1
                     },
                     {
                         name : 'How to Create Passive Income',
                         author: 'Roderick Kelly',
                         description : '',
                         image : 'http://www.getrichslowly.org/images/grs-fb.jpg',
-                        link : 'http://www.getrichslowly.org/blog/2016/12/20/233833/'
+                        link : 'http://www.getrichslowly.org/blog/2016/12/20/233833/',
+                        tag : 2
                     },
                     {
                         name : 'How to Keep Your Small Business Afloat When Cash Runs Low',
                         author: 'Barry Bridges',
                         description : '',
                         image : 'https://www.influenceatwork.com/wp-content/uploads/2012/02/the-simple-dollar-logo.png',
-                        link : 'http://www.thesimpledollar.com/how-to-keep-your-small-business-afloat-when-cash-runs-low/'
+                        link : 'http://www.thesimpledollar.com/how-to-keep-your-small-business-afloat-when-cash-runs-low/',
+                        tag : 2
                     },
                     {
-                        name : '9 FACTS ABOUT RETIREMENT',
+                        name : '9 Facts About Retiremment',
                         author: 'Financial Resources USA',
                         description : '',
                         image : 'https://s3.amazonaws.com/static.contentres.com/media/images/e0a0484d-2bab-4073-ac65-74824567a2df.png',
-                        link : 'http://www.financialresources-usa.com/resource-center/retirement/9-facts-about-retirement'
+                        link : 'http://www.financialresources-usa.com/resource-center/retirement/9-facts-about-retirement',
+                        tag : 3
                     },
                     {
                         name : 'Best side jobs for extra cash',
                         author: 'Megan Wells',
                         description : '',
                         image : 'http://www.getrichslowly.org/images/grs-fb.jpg',
-                        link : 'http://www.getrichslowly.org/blog/2015/09/16/top-rated-side-jobs-for-extra-cash/'
+                        link : 'http://www.getrichslowly.org/blog/2015/09/16/top-rated-side-jobs-for-extra-cash/',
+                        tag : 3
                     }
                 ]
             },
